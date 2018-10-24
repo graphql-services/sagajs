@@ -2,6 +2,7 @@
   "name": "@graphql-saga/subscription",
   "version": "0.0.3-alpha.0+c1643bb",
   "description": "Saga subscriptions",
+  "private": false,
   "keywords": [
     "subscriptions",
     "saga"
