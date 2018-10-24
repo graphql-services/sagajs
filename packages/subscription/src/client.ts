@@ -1,6 +1,6 @@
 import { Reader } from 'nsqjs';
 
-import { getENV, log } from '@saga/core';
+import { getENV, log } from '@graphql-saga/core';
 import { EventType, Event } from './event.model';
 
 const reader = new Reader('es-event', 'saga', {

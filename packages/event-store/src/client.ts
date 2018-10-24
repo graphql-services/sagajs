@@ -1,6 +1,6 @@
 import { GraphQLClient } from 'graphql-request';
 
-import { getENV, log } from '@saga/core';
+import { getENV, log } from '@graphql-saga/core';
 
 const client = new GraphQLClient(getENV('API_URL', 'event-store'));
 
