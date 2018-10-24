@@ -2,6 +2,6 @@
 
 const eventStore = require('..');
 
-describe('@saga/event-store', () => {
-    it('needs tests');
+describe('@sagajs/event-store', () => {
+  it('needs tests');
 });

@@ -1,5 +1,5 @@
 {
-  "name": "@graphql-saga/subscription",
+  "name": "@sagajs/subscription",
   "version": "0.0.3-alpha.0+c1643bb",
   "description": "Saga subscriptions",
   "private": false,
@@ -33,7 +33,7 @@
     "url": "https://github.com/graphql-services/saga/issues"
   },
   "dependencies": {
-    "@graphql-saga/core": "^0.0.3-alpha.0+c1643bb",
+    "@sagajs/core": "^0.0.3-alpha.0+c1643bb",
     "@types/node": "^10.12.0",
     "@types/nsqjs": "^0.9.0",
     "nsqjs": "^0.12.0"

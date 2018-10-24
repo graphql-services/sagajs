@@ -1,11 +1,11 @@
-# `@graphql-saga/core`
+# `@sagajs/core`
 
 > TODO: description
 
 ## Usage
 
 ```
-const core = require('@graphql-saga/core');
+const core = require('@sagajs/core');
 
 // TODO: DEMONSTRATE API
 ```

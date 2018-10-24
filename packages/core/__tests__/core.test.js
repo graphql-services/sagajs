@@ -2,6 +2,6 @@
 
 const core = require('..');
 
-describe('@graphql-saga/core', () => {
+describe('@sagajs/core', () => {
   it('needs tests');
 });

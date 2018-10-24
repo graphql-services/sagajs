@@ -1,5 +1,5 @@
 {
-  "name": "@graphql-saga/core",
+  "name": "@sagajs/core",
   "version": "0.0.3-alpha.0+c1643bb",
   "private": false,
   "description": "Core functionality for saga handlers",

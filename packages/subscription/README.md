@@ -1,11 +1,11 @@
-# `@saga/subscription`
+# `@sagajs/subscription`
 
 > TODO: description
 
 ## Usage
 
 ```
-const subscription = require('@saga/subscription');
+const subscription = require('@sagajs/subscription');
 
 // TODO: DEMONSTRATE API
 ```

@@ -2,6 +2,6 @@
 
 const subscription = require('..');
 
-describe('@saga/subscription', () => {
-    it('needs tests');
+describe('@sagajs/subscription', () => {
+  it('needs tests');
 });
