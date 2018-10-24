@@ -1,0 +1,43 @@
+{
+  "name": "@saga/core",
+  "version": "0.0.0",
+  "description": "Core functionality for saga handlers",
+  "keywords": [
+    "saga",
+    "typescript"
+  ],
+  "author": "Jakub Knejzlik <jakub.knejzlik@inloop.eu>",
+  "homepage": "https://github.com/graphql-services/saga#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphql-services/saga.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/graphql-services/saga/issues"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.0",
+    "dotenv": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0"
+  }
+}

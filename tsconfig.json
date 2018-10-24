@@ -5,15 +5,11 @@
     "noImplicitAny": false,
     "removeComments": true,
     "noLib": false,
-    "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es6",
     "sourceMap": true,
-    "allowJs": false,
-    "outDir": "./lib",
-    "baseUrl": "./src"
+    "lib": ["es6", "dom"]
   },
-  "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }
