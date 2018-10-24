@@ -1,7 +1,7 @@
 {
   "name": "@sagajs/slack",
   "version": "0.0.1",
-  "description": "Sagajs slack tools",
+  "description": "Sagajs slack helpers",
   "keywords": [
     "slack",
     "saga",
