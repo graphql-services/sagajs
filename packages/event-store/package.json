@@ -1,6 +1,6 @@
 {
-  "name": "@saga/event-store",
-  "version": "0.0.0",
+  "name": "@graphql-saga/event-store",
+  "version": "0.0.3-alpha.0+c1643bb",
   "description": "EventStore functionality for saga handlers",
   "keywords": [
     "event-store",
@@ -36,10 +36,11 @@
     "url": "https://github.com/graphql-services/saga/issues"
   },
   "dependencies": {
-    "@saga/core": "^0.0.0",
+    "@graphql-saga/core": "^0.0.3-alpha.0+c1643bb",
     "graphql-request": "^1.8.2"
   },
   "devDependencies": {
     "@types/node": "^10.12.0"
-  }
+  },
+  "gitHead": "c1643bbc350250674a77d7dfdeaab32fa820f2eb"
 }

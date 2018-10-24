@@ -1,6 +1,6 @@
 {
-  "name": "@saga/core",
-  "version": "0.0.0",
+  "name": "@graphql-saga/core",
+  "version": "0.0.3-alpha.0+c1643bb",
   "description": "Core functionality for saga handlers",
   "keywords": [
     "saga",
@@ -39,5 +39,6 @@
   },
   "devDependencies": {
     "@types/node": "^10.12.0"
-  }
+  },
+  "gitHead": "c1643bbc350250674a77d7dfdeaab32fa820f2eb"
 }

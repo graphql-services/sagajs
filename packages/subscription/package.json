@@ -1,6 +1,6 @@
 {
-  "name": "@saga/subscription",
-  "version": "0.0.0",
+  "name": "@graphql-saga/subscription",
+  "version": "0.0.3-alpha.0+c1643bb",
   "description": "Saga subscriptions",
   "keywords": [
     "subscriptions",
@@ -32,12 +32,13 @@
     "url": "https://github.com/graphql-services/saga/issues"
   },
   "dependencies": {
-    "@saga/core": "^0.0.0",
+    "@graphql-saga/core": "^0.0.3-alpha.0+c1643bb",
     "@types/node": "^10.12.0",
     "@types/nsqjs": "^0.9.0",
     "nsqjs": "^0.12.0"
   },
   "devDependencies": {
     "@types/node": "^10.12.0"
-  }
+  },
+  "gitHead": "c1643bbc350250674a77d7dfdeaab32fa820f2eb"
 }
