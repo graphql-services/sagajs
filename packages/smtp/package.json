@@ -33,9 +33,7 @@
   },
   "dependencies": {
     "@sagajs/core": "^0.0.3-alpha.0+c1643bb",
+    "@types/nodemailer": "^4.6.5",
     "nodemailer": "^4.6.8"
-  },
-  "devDependencies": {
-    "@types/nodemailer": "^4.6.5"
   }
 }
