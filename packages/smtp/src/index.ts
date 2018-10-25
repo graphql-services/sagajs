@@ -1,19 +1,11 @@
 import { createTransport } from 'nodemailer';
 
 import { getENV } from '@sagajs/core';
+import { MailOptions } from 'nodemailer/lib/sendmail-transport';
 
 const SMTP_URL = getENV('SMTP_URL', 'smtp');
 const transport = createTransport(SMTP_URL);
 
-interface ISMTPSendMessageOptions {
-  from: string;
-  to: string[];
-  cc?: string[];
-  bcc?: string[];
-  subject: string;
-  htmlText?: string;
-}
-
-export const sendMail = async (options: ISMTPSendMessageOptions) => {
+export const sendMail = async (options: MailOptions) => {
   return transport.sendMail(options);
 };
