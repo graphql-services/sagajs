@@ -1,0 +1,40 @@
+{
+  "name": "@sagajs/smtp",
+  "version": "0.0.1",
+  "description": "SMTP handlers for Sagajs",
+  "keywords": [
+    "smtp",
+    "sagajs"
+  ],
+  "author": "Jakub Knejzlik <jakub.knejzlik@inloop.eu>",
+  "homepage": "https://github.com/graphql-services/saga#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphql-services/saga.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/graphql-services/saga/issues"
+  },
+  "dependencies": {
+    "@sagajs/core": "^0.0.3-alpha.0+c1643bb",
+    "nodemailer": "^4.6.8"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^4.6.5"
+  }
+}
